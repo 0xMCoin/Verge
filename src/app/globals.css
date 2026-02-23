@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .font-bebas-neue {
+    font-family: var(--font-bebas-neue), sans-serif;
+  }
+  
+  .font-montserrat {
+    font-family: var(--font-montserrat), sans-serif;
+  }
+  
+  .font-rubik {
+    font-family: var(--font-rubik), sans-serif;
+  }
+}
